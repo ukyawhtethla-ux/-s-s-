@@ -28,7 +28,7 @@ services:
       BOT_USERNAME:
         value: Venus Music Bot
       UPSTREAM_REPO:
-        value: https://github.com/NoxxOP/ShrutiMusic
+        value: https://github.com/ukyawhtethla-ux/-s-s-/tree/main
       STRING_SESSION: BQG6OwEAw5QZf0ZsJXIpa7mjDzpUJUhyGkAGdmkUClmyF-ZtTi1nXmsjiLUaFXhaf8mR3l3Ea6v8XZB3oJ4LsPDtOjgLZWoeKIh67qFeNPRMq17RfnDldwBzfZ1IV8DU-kTDkBhwMovj-KyzqGypmfz3hqc_LSwl6xU5GU9eEn1ce5PtqJWOpq_WCgg1qFEWtKobGqzKXQvUTGkfL-V4OSiCVGlKpRsY86wgpImehJfipapmMxAgMK7ICS-sTNp9Jq-mWzeh9cjN63tQaHOZLnqo2LtuCU9R1Q53wK-AlOh_xp7ZxBO5bGlytcHNl3-rz27HpZWqMx4v9z69EflR63JeIfDobwAAAAHmpB1sAA
         sync: false
       GIT_TOKEN: 
