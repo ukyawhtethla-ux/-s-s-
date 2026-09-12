@@ -1,37 +1,37 @@
 services:
   - type: web
-    name: shruti-music
+    name: Venus Music
     env: python
     region: oregon
     plan: free
     buildCommand: |
       apt-get update && apt-get install -y ffmpeg
       pip install -r requirements.txt
-    startCommand: python3 -m ShrutiMusic
+    startCommand: python3 -m VenusMusic
     autoDeploy: true
 
     envVars:
       API_ID: 
-        value: 29448785
+        value: 20632643
       API_HASH: 
-        value: 599574f6aff0a09ebb76305b58e7e9c2
+        value: 38b200803bb092e2cf6d4f27c0ed186b
       API_KEY:
         sync: false
-      BOT_TOKEN:
+      BOT_TOKEN: 8987727411:AAGhC2PT7Fo8C97bPz9ZzEH21RzrL45hMZE
         sync: false
       MONGO_DB_URI: 
         value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
       OWNER_ID:
-        value: 7574330905
+        value: 5393032925
       OWNER_USERNAME:
-        value: WTF_WhyMeeh
+        value: Sᴛʀɪᴋᴇʀ 乂 Gᴀᴍɪɴɢ|シ︎༒
       BOT_USERNAME:
-        value: ShrutixMusicBot
+        value: Venus Music Bot
       UPSTREAM_REPO:
         value: https://github.com/NoxxOP/ShrutiMusic
-      STRING_SESSION:
+      STRING_SESSION: BQG6OwEAw5QZf0ZsJXIpa7mjDzpUJUhyGkAGdmkUClmyF-ZtTi1nXmsjiLUaFXhaf8mR3l3Ea6v8XZB3oJ4LsPDtOjgLZWoeKIh67qFeNPRMq17RfnDldwBzfZ1IV8DU-kTDkBhwMovj-KyzqGypmfz3hqc_LSwl6xU5GU9eEn1ce5PtqJWOpq_WCgg1qFEWtKobGqzKXQvUTGkfL-V4OSiCVGlKpRsY86wgpImehJfipapmMxAgMK7ICS-sTNp9Jq-mWzeh9cjN63tQaHOZLnqo2LtuCU9R1Q53wK-AlOh_xp7ZxBO5bGlytcHNl3-rz27HpZWqMx4v9z69EflR63JeIfDobwAAAAHmpB1sAA
         sync: false
-      GIT_TOKEN:
+      GIT_TOKEN: 
         sync: false
       HEROKU_API_KEY:
         sync: false
