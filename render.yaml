@@ -11,9 +11,9 @@ services:
     autoDeploy: true
 
     envVars:
-      API_ID: 
+      API_ID: 20632643
         value: 20632643
-      API_HASH: 
+      API_HASH: 38b200803bb092e2cf6d4f27c0ed186b
         value: 38b200803bb092e2cf6d4f27c0ed186b
       API_KEY:
         sync: false
@@ -21,13 +21,13 @@ services:
         sync: false
       MONGO_DB_URI: 
         value: mongodb+srv://pusers:nycreation@nycreation.pd4klp1.mongodb.net/?retryWrites=true&w=majority&appName=NYCREATION
-      OWNER_ID:
+      OWNER_ID: 5393032925
         value: 5393032925
       OWNER_USERNAME:
         value: Sᴛʀɪᴋᴇʀ 乂 Gᴀᴍɪɴɢ|シ︎༒
-      BOT_USERNAME:
+      BOT_USERNAME: Venus Music Bot
         value: Venus Music Bot
-      UPSTREAM_REPO:
+      UPSTREAM_REPO: https://github.com/ukyawhtethla-ux/-s-s-/tree/main
         value: https://github.com/ukyawhtethla-ux/-s-s-/tree/main
       STRING_SESSION: BQG6OwEAw5QZf0ZsJXIpa7mjDzpUJUhyGkAGdmkUClmyF-ZtTi1nXmsjiLUaFXhaf8mR3l3Ea6v8XZB3oJ4LsPDtOjgLZWoeKIh67qFeNPRMq17RfnDldwBzfZ1IV8DU-kTDkBhwMovj-KyzqGypmfz3hqc_LSwl6xU5GU9eEn1ce5PtqJWOpq_WCgg1qFEWtKobGqzKXQvUTGkfL-V4OSiCVGlKpRsY86wgpImehJfipapmMxAgMK7ICS-sTNp9Jq-mWzeh9cjN63tQaHOZLnqo2LtuCU9R1Q53wK-AlOh_xp7ZxBO5bGlytcHNl3-rz27HpZWqMx4v9z69EflR63JeIfDobwAAAAHmpB1sAA
         sync: false
@@ -37,7 +37,7 @@ services:
         sync: false
       HEROKU_APP_NAME:
         sync: false
-      LOG_GROUP_ID:
+      LOG_GROUP_ID: -1004354354422
         value: -1004354354422
       SUPPORT_GROUP:
         value: https://t.me/ShrutiBotsupport
